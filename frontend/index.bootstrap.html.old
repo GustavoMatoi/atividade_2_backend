@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplos Bootstrap (HTML puro)</title>
+    <!-- Importa o CSS do Bootstrap -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 1</h5>
+                        <p class="card-text">
+                            Uma breve descrição sobre este produto sensacional.
+                        </p>
+                        <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Serviço Especial</h5>
+                        <p class="card-text">
+                            Soluções personalizadas para suas necessidades.
+                        </p>
+                        <a href="#" class="btn btn-success">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Notícia Urgente</h5>
+                        <p class="card-text">
+                            Últimas novidades do mercado para você tomar decisões.
+                        </p>
+                        <a href="#" class="btn btn-outline-info">Ler Agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4 mb-3">
+        <div class="card border-success shadow-sm w-75 mx-auto">
+            <div class="card-header bg-success text-white">
+                Destaque
+            </div>
+            <img src="https://picsum.photos/600/300" class="card-img-top" alt="…">
+            <div class="card-body text-center">
+                <h5 class="card-title">Produto Verde</h5>
+                <p class="card-text">Descrição breve e chamativa.</p>
+                <a href="#" class="btn btn-outline-success">Comprar</a>
+            </div>
+            <div class="card-footer text-muted">
+                Atualizado ontem
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
