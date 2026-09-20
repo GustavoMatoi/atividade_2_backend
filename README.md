@@ -1,4 +1,4 @@
-# atividade1_backend
+# Atividade 2 - Descrição da API
 
 Para rodar o projeto, é necessário possuir previamente instalado: 
  - Node.js
